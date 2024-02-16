@@ -37,3 +37,23 @@
 //     return (a - b);
 // })("10" , 15);
 // console.log(x);
+
+
+// arrow function
+// function add(a ,b)
+// {
+//     return a + b;
+// }
+// console.log(add(11,5));
+
+// let add = (a , b) =>{
+//     return a + b;
+// }
+// console.log(add(11,5));
+
+// let add = (a,b) =>a + b
+// console.log(add(11 , 5));
+
+// function constructer
+// let let hello = new Function("a" , "b" ,"return a * b");
+// console.log(hello(12 , 10));

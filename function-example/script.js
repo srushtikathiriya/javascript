@@ -44,17 +44,17 @@
 // Expected Output : 'Development'
 
 {
-    function longestword(string) {
-        let words = string.split(' ');
-        let longword = '';
-        for (let x = 0; x < words.length; x++) {
-            if (words[x].length > longword.length) {
-                longword = words[x];
-            }
-        }
-        return longword;
-    }
-    console.log(longestword('Web Development Tutorial'));
+    // function longestword(string) {
+    //     let words = string.split(' ');
+    //     let longword = '';
+    //     for (let x = 0; x < words.length; x++) {
+    //         if (words[x].length > longword.length) {
+    //             longword = words[x];
+    //         }
+    //     }
+    //     return longword;
+    // }
+    // console.log(longestword('Web Development Tutorial'));
 }
 
 
